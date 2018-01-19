@@ -9,7 +9,7 @@ Given your outlined goals, this project has plenty of potential for growth and e
 
 Technically your project looks good. Your project and directory structure are set up correctly and your code looks good overall.
 
-Nice work - I look forward to seeing your design ideas going forward. Your Milestone 1 passes at (Tier III)[https://bootcamp-coders.cnm.edu/projects/personal/rubric/]. You're clear to begin Milestone 2a.
+Nice work - I look forward to seeing your design ideas going forward. Your Milestone 1 passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin Milestone 2a.
 
 ### Edits &amp; Suggestions
 - Remove any links to dependencies that you're not using (stylesheet.css)
