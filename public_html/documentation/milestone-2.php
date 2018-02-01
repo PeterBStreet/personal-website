@@ -14,16 +14,17 @@
 </div>
 	<div>
 		<p>
- Ideally, the splash page will have a neutral, modern, professional background. The contact info and "skills" text overlay, of the background image, should be sophisticated yet easy discernable and ultimatly topical. Ideally, the link buttons to the "skills" will change in some way so the visitor receives visual feedback that they are ready to select the "skill".
+ Ideally, the splash page will have a neutral, modern, professional background. The contact info and "skills" text overlay, of the background image, should be sophisticated yet easy discernable and ultimatly topical.
 		</p>
 	</div>
 	<div>
 		<p>
- The "skills" links will direct the visitor to a page focused on the referenced topic and the page content will clearly and professionally demonstrates successful completion of projects associated with the topic. Ultimatly, I would like to include a contact me link. Functioning like the other links the contact me link will open the visitor's preferred e-mail and auto populate my e-mail in the "To:" field.
+ The "skills" boxes are focused on the referenced topic and the content will clearly and professionally demonstrates successful completion of projects associated with the topic. Ultimatly, I would like to include a contact me link. Functioning like the other links the contact me link will open the visitor's preferred e-mail and auto populate my e-mail in the "To:" field.
 		</p>
 	</div>
 <h2>Wireframes</h2>
-
-
+	<img src=*/page_1.png" alt="Desktop or Laptop web page wireframe or layout.">
+	<img src=*/page_2.png" alt="Mobile web page wireframe or layout page 1.">
+	<img src=*/page_3.png" alt="Mobile web page wireframe or layout page 2.">
 </body>
 </html>
