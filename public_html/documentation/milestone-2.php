@@ -33,13 +33,13 @@
 		</div>
 		<h2>Wireframes</h2>
 		<div>
-			<img src=*/page_1.png" alt="Desktop or Laptop web page wireframe or layout.">
+			<img src="Page_1.png" alt="Desktop or Laptop web page wireframe or layout.">
 		</div>
 		<div>
-			<img src=*/page_2.png" alt="Mobile web page wireframe or layout page 1.">
+			<img src="Page_2.png" alt="Mobile web page wireframe or layout page 1.">
 		</div>
 		<div>
-			<img src=*/page_3.png" alt="Mobile web page wireframe or layout page 2.">
+			<img src="Page_3.png" alt="Mobile web page wireframe or layout page 2.">
 		</div>
 	</body>
 </html>
