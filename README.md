@@ -14,3 +14,18 @@ Nice work - I look forward to seeing your design ideas going forward. Your Miles
 ### Edits &amp; Suggestions
 - Remove any links to dependencies that you're not using (stylesheet.css)
 - Challenge yourself with composing HTML from scratch. There will be plenty of opportunities forthcoming. :smiley_cat:
+
+## Milestone 2&alpha; Feedback
+This layout could be deceptively tricky, and I'm concerned that your real content would likely vary significantly in terms of  size and scale from what is represented here in the wireframes. Keep this in mind during development as it can dramatically alter your layout and development process.
+
+It may be tricky to get each of the content regions to be the same height, especially of the content is of variable length. Some custom Flexbox CSS might be necessary: https://goo.gl/TgrzuJ And do keep in mind that every design choice should be supportive of the content and not detract from it, or the UX of the site or overall goals.
+
+You might need to use some of the more advanced Bootstrap column options to reorder the content sections on larger screens to enable the "Contact Info" section to sit in the middle like that. Info on that here: https://goo.gl/YsAsFw You can also opt to show/hide certain elements on specific breakpoints too.
+
+**I don't see a contact form here in the wireframes. A contact form is a required component of the project, so please plan on including one in your layout. See this example: https://goo.gl/Qwfkb7**
+
+Overall your directory structure and code look good, and I think you're ready to begin development after the Bootstrap Challenge exercise. I also strongly recommend revisting the CSS Challenge if you haven't already.
+
+Build your PWP in a file named `index.php` inside `/public_html`. CSS, images, and JS directories should be siblings to `/documentation.` We won't be using the `/documentation` directory any longer.
+
+Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
