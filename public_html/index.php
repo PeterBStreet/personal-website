@@ -17,8 +17,34 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+		<!-- FontAwesome -->
+		<link rel="css/stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- Custom CSS -->
+		<link rel="css/stylesheet" href="css/style.css" type="text/css">
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validation.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
 		<!-- Add Custom CSS Here -->
-<link rel=""stylesheet" href="css/style.css"
+<link rel="css/style.css" href="css/style.css"
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -142,33 +168,59 @@
 				</div>
 			</div>
 		</div>
-		<form class="container my-3 mx-5">
+		<!-- BEGIN CONTACT FORM -->
+		<form id="contact-form" action="php/mailer.php" method="post">
 			<div class="form-group">
-				<label for="userContactForm">Your Email address</label>
-				<input type="email" class="form-control" id="userInputEmail" aria-describedby="emailHelp" placeholder="Enter your email please">
-				<small id="emailHelp" class="form-text text-muted">I will sell your email for as much money as I can!</small>
-			</div>
-
-			<div class="form-group">
-				<label for="userContactForm">Please use your social security number as your password</label>
-				<input type="password" class="form-control" id="userInputPassword" aria-describedby="passwordHelp" placeholder="Enter your password please"> <small id="passwordHelp" class="form-text text-muted">I have already have a buyer for your social security number!</small>
-			</div>
-			<div class="container">
-				<h2>Please type your message here!</h2>
-				<p>We will certainly ignore all requests submitted:</p>
-				<form>
-					<div class="form-group">
-						<label for="comment">Message:</label>
-						<textarea class="form-control" rows="5" id="comment"></textarea>
+				<label for="contactName">Name</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-user"></i></span>
 					</div>
-				</form>
+					<input class="form-control" type="text" name="contactName" id="contactName" placeholder="Your Name">
+				</div>
 			</div>
-			<div>
+			<div class="form-group">
+				<label for="contactEmail">Email</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-envelope"></i></span>
+					</div>
+					<input class="form-control" type="email" name="contactEmail" id="contactEmail" placeholder="Your Email">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="contactSubject">Subject</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-pencil"></i></span>
+					</div>
+					<input class="form-control" type="text" name="contactSubject" id="contactSubject" placeholder="Subject">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="contactMessage">Message</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-comment"></i></span>
+					</div>
+					<textarea name="contactMessage" rows="5" id="contactMessage" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
+				</div>
+			</div>
+			<!-- reCAPTCHA -->
+			<div class="g-recaptcha" data-sitekey="6LfB-kcUAAAAAFcvfj0XiHqROZjZfptzFJl7itxu"></div>
+			<button class="btn btn-info" type="submit">Submit</button>
+			<button class="btn btn-default" type="reset">Reset</button>
+		</form>
+		<!-- END CONTACT FORM-->
+		<div id="output-area"></div>
+		</div><!-- /.col-sm-6 -->
 
-			</div>
-			<div>
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</div>
+		</div><!-- /.row -->
+		</main>
+		</div>
+
+
+
 
 		</form>
 		<!-- Here is the bottom navbar (found on www.getbootstrap.com) with adjusted float, not fixed,text is dark, with a dark background, and justified center. Not clear what the navbar-brand or href do but when I remove the "elements" the text is dark so I left them in! Additionally I can not get the bottom bar to extend to the sides of the page like I did the top bar.-->
