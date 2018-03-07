@@ -15,7 +15,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- FontAwesome -->
 		<link rel="css/stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,15 +26,22 @@
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+				  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+				  crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+				  crossorigin="anonymous"></script>
 
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validation.js"></script>
@@ -42,13 +50,16 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 
-
 		<!-- Add Custom CSS Here -->
-<link rel="css/style.css" href="css/style.css"
+		<link rel="css/style.css" href="css/style.css"
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+				  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+				  crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+				  crossorigin="anonymous"></script>
 
 	</head>
 	<body>
@@ -65,8 +76,6 @@
 				<a class="navbar-brand" href="#">Peter Street's Personal Web Site Project</a>
 			</nav>
 		</div>
-
-
 		<!--Here I created a div and created a container. my is margins top and bottom mx is margins left to right -->
 		<div class="container my-3 mx-5">
 			<!-- navbar with "Bootstrap Challenge" Title and 4 "links" aligned right.
@@ -105,7 +114,9 @@
 			</div>
 			<div class="jumbotron container mt-5 bg-secondary text-white">
 				<h1 class="display-4">What are we doing?</h1>
-				<p class="lead">AbqGig is a community broadband working group between the technology industry, academic institutions, research labs, local governments, businesses, startups, and residents working togeather to improve the high-speed broadband infrastructure and service in Albuquerque, NM</p>
+				<p class="lead">AbqGig is a community broadband working group between the technology industry, academic
+					institutions, research labs, local governments, businesses, startups, and residents working togeather to
+					improve the high-speed broadband infrastructure and service in Albuquerque, NM</p>
 				</p>
 			</div>
 			<div class="jumbotron container mt-5 bg-info text-white">
@@ -114,16 +125,13 @@
 				<p class="lead">Locate new technologies in emergent industries that drive next gen gig applications</p>
 				<p class="lead">Bringing modern wireless technology to underserved communities</p>
 			</div>
-				<div class="jumbotron container mt-5 bg-success text-white">
-					<h1 class="display-4">Why are we doing it?</h1>
-					<p class="lead">To support policies that improve broadband competition by encouraging and removing barriers to the deployment of high-speed networks.</p>
+			<div class="jumbotron container mt-5 bg-success text-white">
+				<h1 class="display-4">Why are we doing it?</h1>
+				<p class="lead">To support policies that improve broadband competition by encouraging and removing barriers
+					to the deployment of high-speed networks.</p>
 				</p>
 			</div>
-
-
-
 		</div>
-
 		<div class="container-fluid bg-light my-4 p-5">
 			<div class="row align-items-center">
 				<div class="col-lg-4 text-center">
@@ -140,28 +148,32 @@
 		<div class="container-fluid px-4">
 			<div class="row">
 				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/174/174/nature"><img src="https://placeimg.com/174/174/nature" class="rounded-circle"></a>
+					<a href="https://placeimg.com/174/174/nature"><img src="https://placeimg.com/174/174/nature"
+																						class="rounded-circle"></a>
 					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 						<p class="small">Ric Aguilar</p>
 					</div>
 
 				</div>
 				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/175/175/animals"><img src="https://placeimg.com/175/175/animals" class="rounded-circle"></a>
+					<a href="https://placeimg.com/175/175/animals"><img src="https://placeimg.com/175/175/animals"
+																						 class="rounded-circle"></a>
 					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 						<p class="small">Tom Feldman</p>
 					</div>
 				</div>
 
 				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/175/175/architecture"><img src="https://placeimg.com/175/175/architecture" class="rounded-circle"></a>
+					<a href="https://placeimg.com/175/175/architecture"><img src="https://placeimg.com/175/175/architecture"
+																								class="rounded-circle"></a>
 					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 						<p class="small">Michael Sanchez</p>
 					</div>
 				</div>
 
 				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/175/175/tech"><img src="https://placeimg.com/175/175/tech" class="rounded-circle"></a>
+					<a href="https://placeimg.com/175/175/tech"><img src="https://placeimg.com/175/175/tech"
+																					 class="rounded-circle"></a>
 					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 						<p class="small">Peter Street</p>
 					</div>
@@ -203,7 +215,8 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fa fa-comment"></i></span>
 					</div>
-					<textarea name="contactMessage" rows="5" id="contactMessage" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
+					<textarea name="contactMessage" rows="5" id="contactMessage" class="form-control"
+								 placeholder="Your Message (2000 charaters max)"></textarea>
 				</div>
 			</div>
 			<!-- reCAPTCHA -->
@@ -218,16 +231,12 @@
 		</div><!-- /.row -->
 		</main>
 		</div>
-
-
-
-
 		</form>
 		<!-- Here is the bottom navbar (found on www.getbootstrap.com) with adjusted float, not fixed,text is dark, with a dark background, and justified center. Not clear what the navbar-brand or href do but when I remove the "elements" the text is dark so I left them in! Additionally I can not get the bottom bar to extend to the sides of the page like I did the top bar.-->
-<div>
-	<nav class="navbar navbar-fixed-bottom navbar-dark bg-dark justify-content-center">
-		<a class="navbar-brand" href="#">Funny text at the bottom of the page!</a>
-	</nav>
-</div>
+		<div>
+			<nav class="navbar navbar-fixed-bottom navbar-dark bg-dark justify-content-center">
+				<a class="navbar-brand" href="#">Funny text at the bottom of the page!</a>
+			</nav>
+		</div>
 	</body>
 </html>
