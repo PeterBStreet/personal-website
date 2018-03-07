@@ -116,7 +116,8 @@
 		<div class="container-fluid bg-light my-4 p-5">
 			<div class="row align-items-center">
 				<div class="col-lg-4 text-center">
-					<a href="https://placeimg.com/250/250/nature"><img src="https://placeimg.com/250/250/nature" alt="picture of bob"></a>
+					<a href="https://placeimg.com/250/250/nature"><img src="https://placeimg.com/250/250/nature"
+																						alt="picture of bob"></a>
 				</div>
 				<div class="col-lg-8 align-self-center p-4">
 					<h1>Mozilla and NSF </h1>
@@ -153,8 +154,7 @@
 				</div>
 
 				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/175/175/tech"><img src="https://placeimg.com/175/175/tech"
-																					 class="rounded-circle"></a>
+					<img src="../public_html/images/278077959.jpg" alt="Picture of Peter Street" width="250" height="250" class="rounded-circle">
 					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 						<p class="small">Peter Street</p>
 					</div>
@@ -162,64 +162,63 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<section class="container pb-5">
 			<div class="row">
 				<div class="col-md-6">
-					this is where the form goes...
+
+
+					<!-- CONTACT FORM -->
+					<form id="contact-form" action="php/mailer.php" method="post">
+						<div class="form-group">
+							<label for="contactName">Name</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fa fa-user"></i></span>
+								</div>
+								<input class="form-control" type="text" name="contactName" id="contactName"
+										 placeholder="Your Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contactEmail">Email</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-envelope-open"></i></span>
+								</div>
+								<input class="form-control" type="email" name="contactEmail" id="contactEmail"
+										 placeholder="Your Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contactSubject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-comment"></i></span>
+								</div>
+								<input class="form-control" type="text" name="contactSubject" id="contactSubject"
+										 placeholder="Subject">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contactMessage">Message</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-comments""></i></span>
+								</div>
+								<textarea name="contactMessage" rows="5" id="contactMessage" class="form-control"
+											 placeholder="Your Message (2000 charaters max)"></textarea>
+							</div>
+						</div>
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="6LfB-kcUAAAAAFcvfj0XiHqROZjZfptzFJl7itxu"></div>
+						<button class="btn btn-info" type="submit">Submit</button>
+						<button class="btn btn-default" type="reset">Reset</button>
+					</form>
 				</div>
-			</div>
+		</section>
+		</div>
 		</div>
 
-		<!-- CONTACT FORM -->
-		<form id="contact-form" action="php/mailer.php" method="post">
-			<div class="form-group">
-				<label for="contactName">Name</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"><i class="fa fa-user"></i></span>
-					</div>
-					<input class="form-control" type="text" name="contactName" id="contactName"
-							 placeholder="Your Name">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="contactEmail">Email</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"><i class="fa fa-envelope"></i></span>
-					</div>
-					<input class="form-control" type="email" name="contactEmail" id="contactEmail"
-							 placeholder="Your Email">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="contactSubject">Subject</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"><i class="fa fa-pencil"></i></span>
-					</div>
-					<input class="form-control" type="text" name="contactSubject" id="contactSubject"
-							 placeholder="Subject">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="contactMessage">Message</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"><i class="fa fa-comment"></i></span>
-					</div>
-					<textarea name="contactMessage" rows="5" id="contactMessage" class="form-control"
-								 placeholder="Your Message (2000 charaters max)"></textarea>
-				</div>
-			</div>
-			<!-- reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="6LfB-kcUAAAAAFcvfj0XiHqROZjZfptzFJl7itxu"></div>
-			<button class="btn btn-info" type="submit">Submit</button>
-			<button class="btn btn-default" type="reset">Reset</button>
-		</form>
-		</div>
-		</div>
-		</div>
 		<!-- END CONTACT FORM-->
 		<div id="output-area"></div>
 
