@@ -1,14 +1,6 @@
-<!--/**
- * Created by PhpStorm.
- * User: petersdata
- * @author Peter Street
- * Date: 2/6/18
- * Time: 12:46 PM
- */
- -->
 <!DOCTYPE html>
-<html lang="en">
-	<head>
+<html>
+	<head lang="en">
 		<meta charset="utf-8">
 		<title>pwp</title>
 		<!-- Here is the required bootstrap meta tags (taken from class materials)-->
@@ -19,10 +11,10 @@
 				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- FontAwesome -->
-		<link rel="css/stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!-- Custom CSS -->
-		<link rel="css/stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
@@ -49,17 +41,8 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-
 		<!-- Add Custom CSS Here -->
-		<link rel="css/style.css" href="css/style.css"
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-				  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-				  crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-				  crossorigin="anonymous"></script>
+		<link rel="css/style.css" href="css/style.css">
 
 	</head>
 	<body>
@@ -117,7 +100,6 @@
 				<p class="lead">AbqGig is a community broadband working group between the technology industry, academic
 					institutions, research labs, local governments, businesses, startups, and residents working togeather to
 					improve the high-speed broadband infrastructure and service in Albuquerque, NM</p>
-				</p>
 			</div>
 			<div class="jumbotron container mt-5 bg-info text-white">
 				<h1 class="display-4">Our Strategies:</h1>
@@ -129,13 +111,12 @@
 				<h1 class="display-4">Why are we doing it?</h1>
 				<p class="lead">To support policies that improve broadband competition by encouraging and removing barriers
 					to the deployment of high-speed networks.</p>
-				</p>
 			</div>
 		</div>
 		<div class="container-fluid bg-light my-4 p-5">
 			<div class="row align-items-center">
 				<div class="col-lg-4 text-center">
-					<a href="https://placeimg.com/250/250/nature"><img src="https://placeimg.com/250/250/nature"></a>
+					<a href="https://placeimg.com/250/250/nature"><img src="https://placeimg.com/250/250/nature" alt="picture of bob"></a>
 				</div>
 				<div class="col-lg-8 align-self-center p-4">
 					<h1>Mozilla and NSF </h1>
@@ -144,7 +125,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- Bottom section with 4 rounded images and text boxes -->
+		<!-- WHO ARE WE -->
 		<div class="container-fluid px-4">
 			<div class="row">
 				<div class="col-lg-3 my-4 text-center">
@@ -180,7 +161,16 @@
 				</div>
 			</div>
 		</div>
-		<!-- BEGIN CONTACT FORM -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					this is where the form goes...
+				</div>
+			</div>
+		</div>
+
+		<!-- CONTACT FORM -->
 		<form id="contact-form" action="php/mailer.php" method="post">
 			<div class="form-group">
 				<label for="contactName">Name</label>
@@ -188,7 +178,8 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fa fa-user"></i></span>
 					</div>
-					<input class="form-control" type="text" name="contactName" id="contactName" placeholder="Your Name">
+					<input class="form-control" type="text" name="contactName" id="contactName"
+							 placeholder="Your Name">
 				</div>
 			</div>
 			<div class="form-group">
@@ -197,7 +188,8 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 					</div>
-					<input class="form-control" type="email" name="contactEmail" id="contactEmail" placeholder="Your Email">
+					<input class="form-control" type="email" name="contactEmail" id="contactEmail"
+							 placeholder="Your Email">
 				</div>
 			</div>
 			<div class="form-group">
@@ -206,7 +198,8 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fa fa-pencil"></i></span>
 					</div>
-					<input class="form-control" type="text" name="contactSubject" id="contactSubject" placeholder="Subject">
+					<input class="form-control" type="text" name="contactSubject" id="contactSubject"
+							 placeholder="Subject">
 				</div>
 			</div>
 			<div class="form-group">
@@ -224,15 +217,13 @@
 			<button class="btn btn-info" type="submit">Submit</button>
 			<button class="btn btn-default" type="reset">Reset</button>
 		</form>
+		</div>
+		</div>
+		</div>
 		<!-- END CONTACT FORM-->
 		<div id="output-area"></div>
-		</div><!-- /.col-sm-6 -->
 
-		</div><!-- /.row -->
-		</main>
-		</div>
-		</form>
-		<!-- Here is the bottom navbar (found on www.getbootstrap.com) with adjusted float, not fixed,text is dark, with a dark background, and justified center. Not clear what the navbar-brand or href do but when I remove the "elements" the text is dark so I left them in! Additionally I can not get the bottom bar to extend to the sides of the page like I did the top bar.-->
+		<!-- Here is the bottom navbar.-->
 		<div>
 			<nav class="navbar navbar-fixed-bottom navbar-dark bg-dark justify-content-center">
 				<a class="navbar-brand" href="#">Funny text at the bottom of the page!</a>
