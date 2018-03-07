@@ -146,15 +146,14 @@
 				</div>
 
 				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/175/175/architecture"><img src="https://placeimg.com/175/175/architecture"
-																								class="rounded-circle"></a>
+					<<img src="../public_html/images/Michael.jpg" alt="Picture of Michael Sanchez" width="175" height="175" class="rounded-circle">
 					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 						<p class="small">Michael Sanchez</p>
 					</div>
 				</div>
 
 				<div class="col-lg-3 my-4 text-center">
-					<img src="../public_html/images/278077959.jpg" alt="Picture of Peter Street" width="250" height="250" class="rounded-circle">
+					<img src="../public_html/images/Peter.jpg" alt="Picture of Peter Street" width="175" height="175" class="rounded-circle">
 					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 						<p class="small">Peter Street</p>
 					</div>
