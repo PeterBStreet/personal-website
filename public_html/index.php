@@ -48,13 +48,7 @@
 	<body>
 		<div>
 			<!--
-			Here is the top navbar (found on www.getbootstrap.com)
-			navbar has no l/r margins - containers with container-fluid are the same
-			the float is set to top so the bar stays on top of the document
-			fixed stays on the top of the page and ruined the layout,
-			the navbar is dark, with a dark background
-			the brand, which allows text, is justified center
-			I would like to learn how to get the three dot/buttons on the left! -->
+			Here is the top navbar
 			<nav class="navbar float-top navbar-dark bg-info justify-content-center ">
 				<a class="navbar-brand" href="#">Peter Street's Personal Web Site Project</a>
 			</nav>
@@ -116,7 +110,7 @@
 		<div class="container-fluid bg-light my-4 p-5">
 			<div class="row align-items-center">
 				<div class="col-lg-4 text-center">
-					<a href="https://placeimg.com/250/250/nature"><img src="https://placeimg.com/250/250/nature"
+					<a href="https://placeimg.com/250/250/technology"><img src="https://placeimg.com/250/250/technology"
 																						alt="picture of bob"></a>
 				</div>
 				<div class="col-lg-8 align-self-center p-4">
@@ -129,44 +123,44 @@
 		<!-- WHO ARE WE -->
 		<div class="container-fluid px-4">
 			<div class="row">
-				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/174/174/nature"><img src="https://placeimg.com/174/174/nature"
-																						class="rounded-circle"></a>
-					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
-						<p class="small">Ric Aguilar</p>
-					</div>
+<!--
+								<div class="col-lg-3 my-4 text-center">
+									<img src="../public_html/images/ricardo.jpg" alt="Picture of Ricardo Aguilar" width="150" height="150" class="rounded-circle">
+									<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
+										<p class="med">Ricardo Aguilar</p>
+									</div>
+								</div>
+-->
+								<div class="col-lg-3 my-4 text-center">
+									<img src="../public_html/images/Tom.jpg" alt="Picture of Tom Feldman" width="150" height="150" class="rounded-circle">
+									<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
+										<p class="med">Tom Feldman</p>
+									</div>
+								</div>
 
-				</div>
-				<div class="col-lg-3 my-4 text-center">
-					<a href="https://placeimg.com/175/175/animals"><img src="https://placeimg.com/175/175/animals"
-																						 class="rounded-circle"></a>
-					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
-						<p class="small">Tom Feldman</p>
-					</div>
-				</div>
+								<div class="col-lg-3 my-4 text-center">
+									<img src="../public_html/images/Michael.jpg" alt="Picture of Michael Sanchez" width="150" height="150" class="rounded-circle">
+									<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
+										<p class="med">Michael Sanchez</p>
+									</div>
+								</div>
 
-				<div class="col-lg-3 my-4 text-center">
-					<<img src="../public_html/images/Michael.jpg" alt="Picture of Michael Sanchez" width="175" height="175" class="rounded-circle">
-					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
-						<p class="small">Michael Sanchez</p>
-					</div>
-				</div>
+								<div class="col-lg-3 my-4 text-center">
+									<img src="../public_html/images/Bob.jpg" alt="Picture of Bob Balance" width="150" height="150" class="rounded-circle">
+									<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
+										<p class="med">Bob Balance</p>
+									</div>
+								</div>
 
-				<div class="col-lg-3 my-4 text-center">
-					<img src="../public_html/images/Peter.jpg" alt="Picture of Peter Street" width="175" height="175" class="rounded-circle">
-					<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
-						<p class="small">Peter Street</p>
-					</div>
-				</div>
-			</div>
-		</div>
+							</div>
+						</div>
 
-		<section class="container pb-5">
-			<div class="row">
-				<div class="col-md-6">
+						<section class="container pb-5">
+							<div class="row">
+								<div class="col-md-6">
 
 
-					<!-- CONTACT FORM -->
+									<!-- CONTACT FORM -->
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
 							<label for="contactName">Name</label>
@@ -209,7 +203,7 @@
 							</div>
 						</div>
 						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="6LfB-kcUAAAAAFcvfj0XiHqROZjZfptzFJl7itxu"></div>
+						<div class="g-recaptcha" data-sitekey="6Lfm_0cUAAAAAK0khKqq1bOI9StOOAnG00smKFJh"></div>
 						<button class="btn btn-info" type="submit">Submit</button>
 						<button class="btn btn-default" type="reset">Reset</button>
 					</form>
@@ -224,7 +218,7 @@
 		<!-- Here is the bottom navbar.-->
 		<div>
 			<nav class="navbar navbar-fixed-bottom navbar-dark bg-dark justify-content-center">
-				<a class="navbar-brand" href="#">Funny text at the bottom of the page!</a>
+				<a class="navbar-brand" href="#">A TecAlly Site 2018 </a>
 			</nav>
 		</div>
 	</body>
