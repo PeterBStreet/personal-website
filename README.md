@@ -29,3 +29,19 @@ Overall your directory structure and code look good, and I think you're ready to
 Build your PWP in a file named `index.php` inside `/public_html`. CSS, images, and JS directories should be siblings to `/documentation.` We won't be using the `/documentation` directory any longer.
 
 Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+### Final PWP Feedback
+This is a good start for a PWP. There are some layout and visual refinements that could be done, but otherwise this site is functional. Your form appears to function fine, check for your test message.  Given that this is a professional project, I would encourage additional polish on the UI layout and styles. I listed a few suggestions below.
+
+Your final PWP Milestone passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your cumulative PWP score is 23/40. (20/40 is passing).
+- Milestone 1: Tier III
+- Milestone 2a: Tier II
+- Milestone 2b: Tier III
+- PWP Final: II
+
+#### Edits &amp; Suggestions
+- Navbar links aren't connected.
+- The margin on the x-axis is throwing off your layout - remove the mx-5 class - it's not needed.
+- portraits could be repositioned on large screens
+- Avoid using `height` and `width` on `<img>` tags. Use CSS instead.
+- Suggest altering the site title, and adding favicons. See https://realfavicongenerator.net/
