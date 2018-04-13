@@ -110,8 +110,8 @@
 		<div class="container-fluid bg-light my-4 p-5">
 			<div class="row align-items-center">
 				<div class="col-lg-4 text-center">
-					<a href="https://placeimg.com/250/250/technology"><img src="https://placeimg.com/250/250/technology"
-																						alt="picture of bob"></a>
+					<!-- Remove Placeholder Image			<a href="https://placeimg.com/250/250/technology"><img src="https://placeimg.com/250/250/technology"
+																						alt="picture of bob"></a> -->
 				</div>
 				<div class="col-lg-8 align-self-center p-4">
 					<h1>Mozilla and NSF </h1>
@@ -132,21 +132,21 @@
 								</div>
 -->
 								<div class="col-lg-3 my-4 text-center">
-									<img src="../public_html/images/Tom.jpg" alt="Picture of Tom Feldman" width="150" height="150" class="rounded-circle">
+	<!--								<img src="../public_html/images/Tom.jpg" alt="Picture of Tom Feldman" width="150" height="150" class="rounded-circle"> -->
 									<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 										<p class="med">Tom Feldman</p>
 									</div>
 								</div>
 
 								<div class="col-lg-3 my-4 text-center">
-									<img src="../public_html/images/Michael.jpg" alt="Picture of Michael Sanchez" width="150" height="150" class="rounded-circle">
+<!--									<img src="../public_html/images/Michael.jpg" alt="Picture of Michael Sanchez" width="150" height="150" class="rounded-circle"> -->
 									<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 										<p class="med">Michael Sanchez</p>
 									</div>
 								</div>
 
 								<div class="col-lg-3 my-4 text-center">
-									<img src="../public_html/images/Bob.jpg" alt="Picture of Bob Balance" width="150" height="150" class="rounded-circle">
+<!--									<img src="../public_html/images/Bob.jpg" alt="Picture of Bob Balance" width="150" height="150" class="rounded-circle"> -->
 									<div class="d-inline-flex p-2 mx-3 my-4 justify-content-center border border rounded bg-light">
 										<p class="med">Bob Balance</p>
 									</div>
